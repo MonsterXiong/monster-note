@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.45">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/assets/favicon.ico"><title>Monster知识体系</title><meta name="description" content="包括但不限于前端知识">
+    <link rel="modulepreload" href="/monster-note/assets/app.7f387ffe.js"><link rel="modulepreload" href="/monster-note/assets/404.html.72c814fa.js"><link rel="modulepreload" href="/monster-note/assets/404.html.f166316b.js"><link rel="prefetch" href="/monster-note/assets/index.html.c3f8134b.js"><link rel="prefetch" href="/monster-note/assets/index.html.d9aed732.js"><link rel="prefetch" href="/monster-note/assets/404.47e2c137.js"><link rel="prefetch" href="/monster-note/assets/Layout.4d448cb8.js">
+    <link rel="stylesheet" href="/monster-note/assets/style.5754b767.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a href="/monster-note/" class="">Take me home</a></div></div><!----><!--]--></div>
+    <script type="module" src="/monster-note/assets/app.7f387ffe.js" defer></script>
+  </body>
+</html>
